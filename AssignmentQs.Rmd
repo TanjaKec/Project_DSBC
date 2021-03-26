@@ -1,0 +1,53 @@
+---
+title: "Assignment"
+author: "DS Bootcamp in R"
+date: "`r format(Sys.Date(), '%d %B, %Y')`"
+output: 
+  html_document:
+    theme: yeti
+    highlight: kate
+    toc: true
+    toc_float: true
+    df_print: paged
+    code_folding: show
+---
+
+## Problem 1
+
+Write a short R Markdown report to explore `nez-opendata_02_19.csv` dataset download from [Serbian Open Data portal](https://data.gov.rs/sr/datasets/podatsi-o-saobratshajnim-nezgodama-za-teritoriju-grada-beograda/). This data contains the information about traffic accidents at the territory of the City of Belgrade for the period from January, 01 until February 28, 2019.
+
+In the traffic_accidents_19_BG. R script file this data has been organised for further data wrangling necessary for addressing the problems listed below. 
+
+Note that there are
+
+-	three kind of accidents (variable ` accident`): 
+  *	material_demage
+  *	deaths and 
+  *	injured 
+-	five different types of accident (variable ` type_acc`):
+  *	one_vehicle
+  *	two_vehicle_no_turn 
+  *	two_vehicle 
+  *	parked_vehicle 
+  *	pedestrian         
+
+I) Use appropriate visualisation to present your findings for the following tasks:
+
+  1)	Which kind of the accident is the most frequent?
+  2)	Which day in the week has the highest number of accidents?
+  3)	For each day in the week find the total number of each kind of accidents
+  4)	Identify time in the day (the hour) with the highest number of accidents
+  5)	What is the most occurring type of the accident during the hour with the highest number of accidents?
+
+II) Creat a ` leafleta` interactive map to pinpoint the accidents with the popup message of the description of the accidents. This popup message should appear every time user click on an accident marker.
+
+Tips: for manipulating date-time type of data you might find useful using the [tidyverse]( https://www.tidyverse.org) package [`lubridate`](https://lubridate.tidyverse.org). You might also find useful the check data analysis report about air pollution in Belgrade available from: https://tanjakec.github.io/OH_workshop/OHSA.html
+
+
+
+## Problem 2
+
+
+## Problem 3
+
+
