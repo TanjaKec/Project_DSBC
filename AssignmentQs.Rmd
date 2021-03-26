@@ -20,7 +20,7 @@ Place the completed report on your GitHub in the "DS_BootCamp" repository, and s
 
 Explore [`nez-opendata_02_19.csv`](https://tanjakec.github.io/mydata/nez-opendata_02_19.csv) dataset download from [Serbian Open Data portal](https://data.gov.rs/sr/datasets/podatsi-o-saobratshajnim-nezgodama-za-teritoriju-grada-beograda/). This data contains the information about traffic accidents in the territory of the City of Belgrade for the period from January, 01 until February 28, 2019.
 
-In the `traffic_accidents.R` script file this data has been organised for further data wrangling necessary for addressing the problems listed below. 
+In the [`traffic_accidents.R`](https://github.com/TanjaKec/Project_DSBC/blob/master/traffic_accidents.R) script file this data has been organised for further data wrangling necessary for addressing the problems listed below. 
 
 Note that there are
 
@@ -119,3 +119,8 @@ Access Lending Club “Bad Loans” dataset from <https://tanjakec.github.io/myd
 1)	Using ML Classification methods: Logistic Regression and KNN train the models for this data to enable prediction of the “bed_loan” variable. 
 
 2)	Compare the accuracy between the trained models. Which one does it perform better?
+
+---
+
+Markdown of this document with necessary data sets for this assignment are available from GitHub:
+<https://github.com/TanjaKec/Project_DSBC>.
