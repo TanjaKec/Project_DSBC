@@ -9,7 +9,6 @@ output:
     toc: true
     toc_float: true
     df_print: paged
-    code_folding: show
 ---
 
 Write an R Markdown report to address the following problems.
@@ -64,12 +63,14 @@ Note that there are
     iii)	Explanatory Variable	
     iv)	Sample Descriptive Statistics
 
+
 2) What is the ‘Data Analysis Methodology’, and why is this needed when working with sample data?
 
 3) What are the statistical concepts used to investigate the relationship between a measured response and an attribute explanatory variable? How are these statistical concepts translated into operational procedures for sample data with:
   
-  -	an attribute explanatory variable having two levels 
-  - an attribute explanatory variable having three or more levels; hence explain when and why a Tukey test is helpful
+    -	an attribute explanatory variable having two levels 
+    - an attribute explanatory variable having three or more levels; hence explain when and why a Tukey test is helpful
+
 
 4) How does multiple regression differ from simple linear regression? In multiple regression how is the contribution of each individual explanatory variable to the regression model initially assessed?
 
